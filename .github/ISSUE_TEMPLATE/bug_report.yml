@@ -1,0 +1,34 @@
+name: 🐛 Bug report
+description: Something is broken or behaving wrong on isalist
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What went wrong, and what did you expect instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Go to '...'
+        2. Tap '...'
+        3. See error
+  - type: input
+    id: where
+    attributes:
+      label: Where? (page / title)
+      placeholder: e.g. the For You feed, or the title page for "The Boondocks"
+  - type: dropdown
+    id: device
+    attributes:
+      label: Device
+      options: [Phone, Tablet, Desktop]
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshots / anything else
