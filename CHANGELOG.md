@@ -1,5 +1,19 @@
 # Changelog
 
+## [4.14.0](https://github.com/karimgarba/isaList/compare/v4.13.0...v4.14.0) (2026-11-01)
+
+
+### Features
+
+* **interactions:** export pseudonymised anime activity for the catalog ([#261](https://github.com/karimgarba/isaList/issues/261)) ([7dfe8c6](https://github.com/karimgarba/isaList/commit/7dfe8c6e5a3f372c58cad027d58de045dc83dbee))
+
+
+### Bug Fixes
+
+* **frontend:** list cache and silent failures; Playwright smoke suite in CI ([#341](https://github.com/karimgarba/isaList/issues/341)) ([444ea25](https://github.com/karimgarba/isaList/commit/444ea2517058935222ade60ad6b985de20358f05))
+* notifications open their target; shared lists in the add menus ([#342](https://github.com/karimgarba/isaList/issues/342)) ([98df5c6](https://github.com/karimgarba/isaList/commit/98df5c63752f35967e7fc72c7f788a03d3da3ea2))
+* remove the tags page and hide offensive tags ([#344](https://github.com/karimgarba/isaList/issues/344)) ([013025a](https://github.com/karimgarba/isaList/commit/013025af7b9396a0aa53a3a25e5c965036b11c08))
+
 ## [4.13.0](https://github.com/karimgarba/isaList/compare/v4.12.0...v4.13.0) (2026-11-01)
 
 
