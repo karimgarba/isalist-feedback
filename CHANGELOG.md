@@ -1,5 +1,179 @@
 # Changelog
 
+## [4.13.0](https://github.com/karimgarba/isaList/compare/v4.12.0...v4.13.0) (2026-11-01)
+
+
+### Features
+
+* **cinema:** in cinemas browse, title label and cinema checker ([#338](https://github.com/karimgarba/isaList/issues/338)) ([9313a83](https://github.com/karimgarba/isaList/commit/9313a83c9146b175c9f46b2eebc513175ee49c7d))
+
+## [4.12.0](https://github.com/karimgarba/isaList/compare/v4.11.0...v4.12.0) (2026-11-01)
+
+
+### Features
+
+* **web:** point the support link at Buy Me a Coffee ([#335](https://github.com/karimgarba/isaList/issues/335)) ([d1e811d](https://github.com/karimgarba/isaList/commit/d1e811dbfa7ab03b618b7c11eda6568f0802e333))
+
+## [4.11.0](https://github.com/karimgarba/isaList/compare/v4.10.0...v4.11.0) (2026-11-01)
+
+
+### Features
+
+* **mcp:** complete OAuth discovery for agent scanners ([#332](https://github.com/karimgarba/isaList/issues/332)) ([4614bb7](https://github.com/karimgarba/isaList/commit/4614bb7088e550bd868295c0e8f1bf9b13d0d65f))
+
+## [4.10.0](https://github.com/karimgarba/isaList/compare/v4.9.0...v4.10.0) (2026-10-31)
+
+
+### Features
+
+* **mcp:** connect an AI client to isalist with OAuth, off by default ([#325](https://github.com/karimgarba/isaList/issues/325)) ([2d5dabf](https://github.com/karimgarba/isaList/commit/2d5dabfcfc8846f3ba0a4e1fe51d93ad4eb3c5bd))
+
+## [4.9.0](https://github.com/karimgarba/isaList/compare/v4.8.1...v4.9.0) (2026-10-31)
+
+
+### Features
+
+* **catalog:** more like this from the owner's catalog, behind a flag ([#287](https://github.com/karimgarba/isaList/issues/287)) ([2435a21](https://github.com/karimgarba/isaList/commit/2435a214c961ba6f93ddc03f8b4762a0f187afbd))
+* **keyboard:** command palette, chords, grid navigation and title actions ([#324](https://github.com/karimgarba/isaList/issues/324)) ([e85de07](https://github.com/karimgarba/isaList/commit/e85de07bc9bb04f412fec3a940468e156bdf2877))
+* **watch:** affiliate-ready where to watch with a switchable availability source ([#323](https://github.com/karimgarba/isaList/issues/323)) ([57144f4](https://github.com/karimgarba/isaList/commit/57144f499ca81c479f54718a2dc7a78e5c49b459))
+
+
+### Bug Fixes
+
+* AdSense compliance, honest consent, private-account model, crawler-rendered SEO ([#293](https://github.com/karimgarba/isaList/issues/293)) ([efef697](https://github.com/karimgarba/isaList/commit/efef697d3980b39bedeac6b92a0660309099824d))
+* **library,for-you:** library sort and the For You mix buttons ([#291](https://github.com/karimgarba/isaList/issues/291)) ([1c6b259](https://github.com/karimgarba/isaList/commit/1c6b259e6067896ef5b7cb6744e1f8c1a7eeb767))
+* **security:** first hardening batch (privacy, limits, edge cache, CI) ([#295](https://github.com/karimgarba/isaList/issues/295)) ([6edc3b0](https://github.com/karimgarba/isaList/commit/6edc3b007e3a2957b1897da7e39b65f37f2b03dd))
+* **web:** light-theme sweep, drop template heroes, sentence-case labels ([#282](https://github.com/karimgarba/isaList/issues/282)) ([9e0b0ed](https://github.com/karimgarba/isaList/commit/9e0b0eddcd7be3b29f91d0ee051c400b935a5b9f))
+* **web:** page chrome, signed-in home, single width, plain tags ([#280](https://github.com/karimgarba/isaList/issues/280)) ([56c6db6](https://github.com/karimgarba/isaList/commit/56c6db67ede512f73d32087befac136d03ffcbcd))
+
+
+### Performance Improvements
+
+* reuse cached data across navigation, single-flight title reads ([#273](https://github.com/karimgarba/isaList/issues/273)) ([6a4579d](https://github.com/karimgarba/isaList/commit/6a4579dc6b44bf75620bc190f3ce64109eafa34f))
+
+## [4.8.1](https://github.com/karimgarba/isaList/compare/v4.8.0...v4.8.1) (2026-10-30)
+
+
+### Bug Fixes
+
+* **web:** drop stray score dot, reset error boundary on navigation, gate explore fallback on related ([#275](https://github.com/karimgarba/isaList/issues/275)) ([d07799b](https://github.com/karimgarba/isaList/commit/d07799b70ec831c1d71446c71dfdb0487132d4ff))
+
+## [4.8.0](https://github.com/karimgarba/isaList/compare/v4.7.4...v4.8.0) (2026-10-30)
+
+
+### Features
+
+* **for-you:** user-controlled movie/tv/anime feed mix ([#269](https://github.com/karimgarba/isaList/issues/269)) ([091a584](https://github.com/karimgarba/isaList/commit/091a584c84a09112dd9b5124e8b27c62da159f3c))
+
+## [4.7.4](https://github.com/karimgarba/isaList/compare/v4.7.3...v4.7.4) (2026-10-30)
+
+
+### Bug Fixes
+
+* **api:** stop title pages shedding themselves into 503s ([#271](https://github.com/karimgarba/isaList/issues/271)) ([1591115](https://github.com/karimgarba/isaList/commit/1591115fb2feb423fc845d8fdfa58cdb038f16f1))
+
+## [4.7.3](https://github.com/karimgarba/isaList/compare/v4.7.2...v4.7.3) (2026-10-30)
+
+
+### Performance Improvements
+
+* **api:** slim list payloads, trim PWA precache ([#266](https://github.com/karimgarba/isaList/issues/266)) ([6184e09](https://github.com/karimgarba/isaList/commit/6184e09bcb1dd9840ea2c6e5e14e68996611b6ea))
+
+## [4.7.2](https://github.com/karimgarba/isaList/compare/v4.7.1...v4.7.2) (2026-10-14)
+
+
+### Bug Fixes
+
+* **lists:** keep together pill aligned across media ([28675d2](https://github.com/karimgarba/isaList/commit/28675d2d1e8dfcd43ec9806dc1c82ee0900a1d14))
+
+## [4.7.1](https://github.com/karimgarba/isaList/compare/v4.7.0...v4.7.1) (2026-10-14)
+
+
+### Bug Fixes
+
+* **lists:** prevent row controls from overlapping ([3310262](https://github.com/karimgarba/isaList/commit/33102626711c0d91483fbbdb0b8b64c0363817d1))
+
+## [4.7.0](https://github.com/karimgarba/isaList/compare/v4.6.2...v4.7.0) (2026-10-14)
+
+
+### Features
+
+* **lists:** track episode progress per user ([ba1755f](https://github.com/karimgarba/isaList/commit/ba1755fcb738432ab6b001769a9bc939bea24470))
+
+## [4.6.2](https://github.com/karimgarba/isaList/compare/v4.6.1...v4.6.2) (2026-09-13)
+
+
+### Bug Fixes
+
+* **search:** four loose ends — thin answers, tag approval, a misnamed field, empty vibe browses ([#256](https://github.com/karimgarba/isaList/issues/256)) ([7c0f479](https://github.com/karimgarba/isaList/commit/7c0f47977fbe296e535c8ff2c1ce74ea975dbe8e))
+
+## [4.6.1](https://github.com/karimgarba/isaList/compare/v4.6.0...v4.6.1) (2026-09-09)
+
+
+### Bug Fixes
+
+* **library:** stable rating sort + infinite scroll ([#245](https://github.com/karimgarba/isaList/issues/245)) ([3e305d2](https://github.com/karimgarba/isaList/commit/3e305d27994f1268a961edb0c158ce9e26e64f49))
+
+## [4.6.0](https://github.com/karimgarba/isaList/compare/v4.5.0...v4.6.0) (2026-09-08)
+
+
+### Features
+
+* make the "Airing this week" rail airing-aware ([#235](https://github.com/karimgarba/isaList/issues/235)) ([29dbe5d](https://github.com/karimgarba/isaList/commit/29dbe5d21e7d6b4c381e3758f61d2c7a19426c80))
+
+## [4.5.0](https://github.com/karimgarba/isaList/compare/v4.4.1...v4.5.0) (2026-09-08)
+
+
+### Features
+
+* isaList member recommendations (recommend % + watch-next) ([#234](https://github.com/karimgarba/isaList/issues/234)) ([17e6fb8](https://github.com/karimgarba/isaList/commit/17e6fb8515e657291cadf014af44d2a35fd3fa4c))
+
+## [4.4.1](https://github.com/karimgarba/isaList/compare/v4.4.0...v4.4.1) (2026-09-08)
+
+
+### Bug Fixes
+
+* **for-you:** freeze on-screen order so the grid stops reshuffling under you ([#231](https://github.com/karimgarba/isaList/issues/231)) ([cd0c894](https://github.com/karimgarba/isaList/commit/cd0c894a91a37bd7fabff14fd9290396b04f4489))
+
+## [4.4.0](https://github.com/karimgarba/isaList/compare/v4.3.1...v4.4.0) (2026-09-08)
+
+
+### Features
+
+* **for-you:** lead with the big grid, fold curated rails into a remembered toggle ([#228](https://github.com/karimgarba/isaList/issues/228)) ([c50ae1d](https://github.com/karimgarba/isaList/commit/c50ae1d2361e3ecbdbf2b7630646a9fde17305c8))
+
+## [4.3.1](https://github.com/karimgarba/isaList/compare/v4.3.0...v4.3.1) (2026-09-08)
+
+
+### Bug Fixes
+
+* **library:** count repeat passes, and call a manga one a reread ([#192](https://github.com/karimgarba/isaList/issues/192)) ([8c26611](https://github.com/karimgarba/isaList/commit/8c26611ec147e368389547dc8ddca49b46972496))
+
+## [4.3.0](https://github.com/karimgarba/isaList/compare/v4.2.0...v4.3.0) (2026-09-08)
+
+
+### Features
+
+* **nav:** surface a Feedback link in the sidebar, fix What's-new link ([#217](https://github.com/karimgarba/isaList/issues/217)) ([64f64a1](https://github.com/karimgarba/isaList/commit/64f64a1a9f15a8633697c075acea7b2457840e19))
+* **rate:** include already-rated titles in the queue, unrated first ([#215](https://github.com/karimgarba/isaList/issues/215)) ([ac24a87](https://github.com/karimgarba/isaList/commit/ac24a8777e3197672ed8ce412bb57c1767eaad6f))
+* **rate:** quick tag-votes on the rate page ([72a7dc4](https://github.com/karimgarba/isaList/commit/72a7dc4c0dd1f5e0ad9b8e8e0107bc28589cbf28))
+* **rate:** require a score + 3 tags before a card advances ([#219](https://github.com/karimgarba/isaList/issues/219)) ([d595f35](https://github.com/karimgarba/isaList/commit/d595f3566506ee09e1105700ed422422d4308e64))
+* **settings:** feedback repo + what's-new links ([dcd1b9c](https://github.com/karimgarba/isaList/commit/dcd1b9c37e1594b1ff4cb0641f7cf3c0613ce0be))
+* **stats:** manga-scoped top genres & tags for mixed libraries ([#224](https://github.com/karimgarba/isaList/issues/224)) ([1eab4c6](https://github.com/karimgarba/isaList/commit/1eab4c63c8d53fc3f7ef721b572562679920d2bb))
+* **stats:** reading-first headline for manga-heavy libraries ([#221](https://github.com/karimgarba/isaList/issues/221)) ([f07ae62](https://github.com/karimgarba/isaList/commit/f07ae62edd3d0946c3c4390ae8be188b55d540d2))
+* **titles:** richer, more relevant related-titles retrieval ([#216](https://github.com/karimgarba/isaList/issues/216)) ([ff005f5](https://github.com/karimgarba/isaList/commit/ff005f5872caee84a54a6f3ea6b86e8f11a7214a))
+* **ui:** cohesive sidebar rail — hidden scrollbar, continuous active state, collapse toggle ([ec3fe44](https://github.com/karimgarba/isaList/commit/ec3fe4459ebc28a7f4a41bf1243e9e4d22a7e1dc))
+* **ui:** date-grouped timeline for Schedule + Upcoming ([b0b235f](https://github.com/karimgarba/isaList/commit/b0b235f59290fda0986cb2a062ae4e381731a0c7))
+
+
+### Bug Fixes
+
+* **rate:** show real title tags (with names) on the /rate tag voter ([56af55b](https://github.com/karimgarba/isaList/commit/56af55b3ae2cf2dc3310384dee1b42d63c2dfaa8))
+* **rate:** show real title tags with names on the /rate tag voter ([70600a0](https://github.com/karimgarba/isaList/commit/70600a0121761ef96c5cb7ea91e109ded5fc0b39))
+* **search+titles:** year-aware anime dedup, fuzzy search, unified title-detail rails ([#226](https://github.com/karimgarba/isaList/issues/226)) ([530d84c](https://github.com/karimgarba/isaList/commit/530d84caac7ed63747b4187d2bc7c1e71ccefa3d))
+* **stats:** remove the "People like you" similar-users section ([#218](https://github.com/karimgarba/isaList/issues/218)) ([61d6e63](https://github.com/karimgarba/isaList/commit/61d6e63ae125cc3b1e55e8327bfdc15a54982302))
+* **ui:** sidebar integration — alignment, continuity, scrollbar, collapse ([ace7fc2](https://github.com/karimgarba/isaList/commit/ace7fc2479a09085fd50586f8c65e66e28b5bd36))
+
 ## [4.2.0](https://github.com/karimgarba/isaList/compare/v4.1.7...v4.2.0) (2026-09-07)
 
 
