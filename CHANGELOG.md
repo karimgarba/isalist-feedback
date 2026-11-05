@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.21.1](https://github.com/karimgarba/isaList/compare/v4.21.0...v4.21.1) (2026-11-05)
+
+
+### Bug Fixes
+
+* **clubs:** a film is one discussion, not a weekly episode schedule ([#400](https://github.com/karimgarba/isaList/issues/400)) ([12db1ca](https://github.com/karimgarba/isaList/commit/12db1ca09e5273884fa6932c211fdfd66da8fa48))
+
 ## [4.21.0](https://github.com/karimgarba/isaList/compare/v4.20.0...v4.21.0) (2026-11-05)
 
 ### Features
